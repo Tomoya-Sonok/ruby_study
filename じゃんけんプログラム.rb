@@ -16,8 +16,10 @@ def janken
         return false
     elsif player == 1 && opponent == 2
         puts "あなたの勝ちです"
+        return false
     elsif player == 2 && opponent == 0
         puts "あなたの勝ちです"
+        return false
     else
         puts "あなたの負けです"
         return false
